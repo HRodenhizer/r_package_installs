@@ -18,7 +18,7 @@ devtools::install_github("HRodenhizer/thermokarstdetection")
 
 # Statistics
 install.packages(c("caret", "emmeans", "gbm", "gstat", "lme4", "lmerTest",
-                   "MuMin", "tree", "zoo"))
+                   "mmand", "MuMin", "pdp", "tree", "zoo"))
 devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
