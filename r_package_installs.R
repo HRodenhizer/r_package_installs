@@ -23,8 +23,8 @@ devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
 install.packages(c("Cowplot", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
-                   "ggnewscale", "ggpubr", "ggthemes", "gridExtra", "gtable",
-                   "magick", "viridis"))
+                   "ggnewscale", "GGally", "ggpubr", "ggthemes", "gridExtra", 
+                   "gtable", "magick", "viridis"))
 devtools::install_github('tylermorganwall/rayshader')
 
 # Other
