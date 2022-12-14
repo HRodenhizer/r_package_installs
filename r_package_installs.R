@@ -28,4 +28,5 @@ install.packages(c("Cowplot", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
 devtools::install_github('tylermorganwall/rayshader')
 
 # Other
-install.packages(c("doParallel", "neonUtilities", 'svMisc', 'kit'))
+install.packages(c("doParallel", "googleCloudStorageR", "neonUtilities", 
+                   'svMisc', 'kit'))
