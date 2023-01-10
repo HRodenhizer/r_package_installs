@@ -12,7 +12,8 @@ install.packages(c("data.table", "tidyverse", "writexl"))
 # Spatial Data
 install.packages(c("sp", "sf", "raster", "terra", "ggmap", "ggsn", "leaflet",
                    "mapview", "satellite", "spatialEco", "spatstat", "stars", 
-                   'cleangeo', 'ggspatial', 'plotrix', 'rworldmap', 'ncdf4'))
+                   'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 'rworldmap', 
+                   'ncdf4', 'terrainr'))
 devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
