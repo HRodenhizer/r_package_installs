@@ -23,7 +23,7 @@ install.packages(c("caret", "emmeans", "gbm", "gstat", "lme4", "lmerTest",
 devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
-install.packages(c("Cowplot", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
+install.packages(c("Cowplot","egg", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
                    "ggnewscale", "GGally", "ggpubr", "ggthemes", "gridExtra", 
                    "gtable", "magick", "viridis"))
 devtools::install_github('tylermorganwall/rayshader')
