@@ -9,6 +9,9 @@ install.packages("devtools")
 # Data management
 install.packages(c("data.table", "tidyverse", "writexl"))
 
+# Python
+install.packages(c("reticulate"))
+
 # Spatial Data
 install.packages(c("sp", "sf", "raster", "terra", "ggmap", "ggsn", "leaflet",
                    "mapview", "satellite", "spatialEco", "spatstat", "stars", 
