@@ -16,12 +16,12 @@ install.packages(c("reticulate"))
 install.packages(c("sp", "sf", "raster", "terra", "ggmap", "ggsn", "leaflet",
                    "mapview", "satellite", "spatialEco", "spatstat", "stars", 
                    'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 'rworldmap', 
-                   'ncdf4', 'terrainr'))
+                   'ncdf4', 'terrainr', 'automap'))
 devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
 # Statistics
-install.packages(c("caret", "emmeans", "gbm", "gstat", "lme4", "lmerTest",
+install.packages(c("caret", "deming", "emmeans", "gbm", "gstat", "lme4", "lmerTest",
                    "mmand", "MuMin", "partykit", "pdp", "randomForest", 
                    "tidymodels", "tree", "zoo"))
 devtools::install_github('ModelOriented/treeshap')
@@ -29,7 +29,8 @@ devtools::install_github('ModelOriented/treeshap')
 # Visualization
 install.packages(c("Cowplot","egg", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
                    "ggnewscale", "GGally", "ggpubr", "ggsignif", "ggthemes", 
-                   "gridExtra", "gtable", "magick", "plotly", "viridis"))
+                   "gridExtra", "gtable", "magick", "patchwork", "plotly", 
+                   "viridis"))
 devtools::install_github('tylermorganwall/rayshader')
 devtools::install_github("vqv/ggbiplot")
 
