@@ -3,6 +3,9 @@
 ###                      Code by HGR 08/2022                                 ###
 ################################################################################
 
+# Package Managment
+install.packages("renv")
+
 # Install devtools to allow github installs
 install.packages("devtools")
 
