@@ -3,11 +3,14 @@
 ###                      Code by HGR 08/2022                                 ###
 ################################################################################
 
-# Package Managment
+# Package Management
 install.packages("renv")
 
 # Install devtools to allow github installs
 install.packages("devtools")
+
+# To help with GitHub
+install.packages(c('usethis'))
 
 # Data management
 install.packages(c("data.table", "tidyverse", "writexl"))
