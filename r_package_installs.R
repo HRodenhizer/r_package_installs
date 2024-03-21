@@ -28,9 +28,9 @@ devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
 # Statistics
-install.packages(c("caret", "deming", "emmeans", "gbm", "gstat", "lme4", "lmerTest",
-                   "mmand", "MuMin", "partykit", "pdp", "randomForest", 
-                   "tidymodels", "tree", "zoo"))
+install.packages(c("caret", "deming", "emmeans", "gbm", "gstat", "lme4", 
+                   "lmerTest", "mmand", "MuMin", "partykit", "pdp", 
+                   "philentropy", "randomForest", "tidymodels", "tree", "zoo"))
 devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
