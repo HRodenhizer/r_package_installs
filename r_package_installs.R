@@ -36,8 +36,8 @@ devtools::install_github('ModelOriented/treeshap')
 # Visualization
 install.packages(c("Cowplot","egg", "DiagrammeR", "DiagrammeRsvg", "ggfortify",
                    "ggnewscale", "GGally", "ggpubr", "ggsignif", "ggthemes", 
-                   "gridExtra", "gtable", "magick", "patchwork", "plotly", 
-                   "viridis"))
+                   "gridExtra", "ggridges", "gtable", "magick", "patchwork", 
+                   "plotly", "viridis"))
 devtools::install_github('tylermorganwall/rayshader')
 devtools::install_github("vqv/ggbiplot")
 
