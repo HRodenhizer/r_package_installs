@@ -19,7 +19,7 @@ install.packages(c("data.table", "tidyverse", "writexl"))
 install.packages(c("reticulate"))
 
 # Spatial Data
-install.packages(c("sp", "sf", "raster", "terra", "ggmap", "ggsn", "leaflet",
+install.packages(c("sp", "sf", "terra", "ggmap", "ggsn", "leaflet",
                    "mapview", "satellite", "spatialEco", "spatstat", "stars", 
                    'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 'rworldmap', 
                    'ncdf4', 'terrainr', 'automap', 'tidyterra', 'ggmapinset',
@@ -28,9 +28,10 @@ devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
 # Statistics
-install.packages(c("biomod2", "caret", "deming", "emmeans", "gbm", "gstat", 
-                   "lme4", "lmerTest", "mmand", "MuMIn", "partykit", "pdp", 
-                   "philentropy", "randomForest", "tidymodels", "tree", "zoo"))
+install.packages(c("biomod2", "caret", "deming", "earth", "emmeans", "gam", 
+                   "gbm", "gstat", "lme4", "lmerTest", "maxnet", "mda", "mmand", 
+                   "MuMIn", "partykit", "pdp", "philentropy", "randomForest", 
+                   "tidymodels", "tree", "xgboost", "zoo"))
 devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
