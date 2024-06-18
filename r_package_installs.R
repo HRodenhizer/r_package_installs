@@ -43,5 +43,5 @@ devtools::install_github('tylermorganwall/rayshader')
 devtools::install_github("vqv/ggbiplot")
 
 # Other
-install.packages(c("doParallel", "googleCloudStorageR", "neonUtilities", 
+install.packages(c("doParallel", "googleCloudStorageR", "knitr", "neonUtilities", 
                    "rmarkdown", 'svMisc', 'kit'))
