@@ -19,7 +19,7 @@ install.packages(c("data.table", "tidyverse", "writexl"))
 install.packages(c("reticulate"))
 
 # Spatial Data
-install.packages(c("sp", "sf", "terra", "ggmap", "ggsn", "leaflet",
+install.packages(c("sp", "sf", "terra", "ggmap", "ggsn", "leaflet", "lwgeom",
                    "mapview", "satellite", "spatialEco", "spatstat", "stars", 
                    'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 'rworldmap', 
                    'ncdf4', 'terrainr', 'automap', 'tidyterra', 'ggmapinset',
