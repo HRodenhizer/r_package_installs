@@ -44,4 +44,4 @@ devtools::install_github("vqv/ggbiplot")
 
 # Other
 install.packages(c("doParallel", "googleCloudStorageR", "neonUtilities", 
-                   'svMisc', 'kit'))
+                   "rmarkdown", 'svMisc', 'kit'))
