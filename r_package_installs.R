@@ -20,10 +20,10 @@ install.packages(c("reticulate"))
 
 # Spatial Data
 install.packages(c("sp", "sf", "terra", "ggmap", "ggsn", "leaflet", "lwgeom",
-                   "mapview", "satellite", "spatialEco", "spatstat", "stars", 
-                   'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 'rworldmap', 
-                   'ncdf4', 'terrainr', 'automap', 'tidyterra', 'ggmapinset',
-                   'rnaturalearth', 'rnaturalearthdata'))
+                   "mapview", "satellite", "smoothr", "spatialEco", "spatstat", 
+                   "stars", 'cleangeo', 'ggspatial', 'plotrix', 'RStoolbox', 
+                   'rworldmap', 'ncdf4', 'terrainr', 'automap', 'tidyterra', 
+                   'ggmapinset', 'rnaturalearth', 'rnaturalearthdata'))
 devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
