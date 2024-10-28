@@ -29,10 +29,11 @@ devtools::install_github("SEEG-Oxford/seegSDM")
 devtools::install_github("HRodenhizer/thermokarstdetection")
 
 # Statistics
-install.packages(c("biomod2", "caret", "deming", "earth", "emmeans", "gam", 
-                   "gbm", "gstat", "lme4", "lmerTest", "maxnet", "mda", "mmand", 
-                   "MuMIn", "partykit", "pdp", "philentropy", "randomForest", 
-                   "tidymodels", "tree", "xgboost", "zoo"))
+install.packages(c("bestNormalize", "biomod2", "caret", "deming", "earth", 
+                   "emmeans", "gam", "gbm", "gstat", "lme4", "lmerTest", 
+                   "maxnet", "mda", "mmand", "MuMIn", "partykit", "pdp", 
+                   "philentropy", "randomForest", "tidymodels", "tree", 
+                   "xgboost", "zoo"))
 devtools::install_github('ModelOriented/treeshap')
 
 # Visualization
